@@ -1,0 +1,149 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background: pink url('your-background-image.jpg') no-repeat center;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: semibold;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+/* Banner */
+.banner {
+    background: pink url('your-background-image.jpg') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+}
+
+.banner h1 {
+    font-size: 40px;
+    font-family: cursive;
+    color: darkmagenta;
+    display: inline-block;
+    padding: 5px 70px;
+    border: 1px solid green;
+}
+
+/* Tagline */
+.tagline {
+    margin-bottom: 15px;
+}
+
+/* Content Layout */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Top Image */
+.image-box {
+    width: 180px;
+    height: 100px;
+    background: lightgray;
+    border: 1px dashed #ccc;
+    margin: 0 auto 15px auto;
+}
+
+/* Two Side-by-Side Boxes */
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+/* Box Styling */
+.box {
+    width: 250px;
+    height: 150px;
+    background: lightgray;
+    border: 1px dashed #ccc;
+}
+
+/* Buttons Layout */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.buttons button {
+    background: #c2185b;
+    color: white;
+    border: none;
+    padding: 8px 99px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background: #9a1450;
+}
+
+/* Bottom Section: Foods & Store */
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0 20px 0;
+}
+
+.bottom-button {
+    background: #c2185b;
+    color: white;
+    border: none;
+    padding: 8px 80px;
+    font-size: 12px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.buttons button:hover {
+    background: #9a1450;
+}
+
+.bottom-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #8a1643;
+    text-align: center;
+    margin-top: 10px;
+}
+
